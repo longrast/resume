@@ -50,6 +50,9 @@ body {
                 &:hover {
                     color: rgb(100, 255, 255);
                 }
+                &:active {
+                    color: white;
+                }
             }
         }
     }
@@ -143,6 +146,9 @@ body {
                     color: rgb(100, 255, 255);
                 }
                 &:active {
+                    color: white;
+                }
+                &:visited {
                     color: white;
                 }
             }

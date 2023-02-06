@@ -55,6 +55,9 @@ body header .contacts a:visited {
 body header .contacts a:hover {
   color: rgb(100, 255, 255);
 }
+body header .contacts a:active {
+  color: white;
+}
 body main {
   margin: 6vh 10%;
 }
@@ -144,6 +147,9 @@ body main .about a:hover {
   color: rgb(100, 255, 255);
 }
 body main .about a:active {
+  color: white;
+}
+body main .about a:visited {
   color: white;
 }
 
