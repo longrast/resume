@@ -143,6 +143,9 @@ body main .about a {
 body main .about a:hover {
   color: rgb(100, 255, 255);
 }
+body main .about a:active {
+  color: white;
+}
 
 @media (max-width: 750px) {
   html {
