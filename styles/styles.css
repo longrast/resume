@@ -159,5 +159,6 @@ body main .about a:hover {
   }
   body header figure figcaption {
     margin: 20px auto;
+    min-width: 70%;
   }
 }/*# sourceMappingURL=styles.css.map */
