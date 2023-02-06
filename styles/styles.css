@@ -133,13 +133,31 @@ body main .about {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+body main .about ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+body main .about a {
+  color: white;
+}
+body main .about a:hover {
+  color: rgb(100, 255, 255);
+}
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   html {
     font-size: 10px;
+  }
+  body header figure {
+    display: flex;
+    flex-direction: column;
   }
   body header figure img {
     max-width: 200px;
     height: auto;
+    margin: auto auto;
+  }
+  body header figure figcaption {
+    margin: 20px auto;
   }
 }/*# sourceMappingURL=styles.css.map */

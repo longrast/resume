@@ -131,10 +131,23 @@ body {
             color: white;
             font-size: 1.2rem;
             line-height: 1.5;
+            ul {
+                li {
+                    list-style: none;
+                    margin-left: 10px;
+                }
+            }
+            a {
+                color: white;
+                &:hover {
+                    color: rgb(100, 255, 255);
+                }
+            }
+            
         }
     }   
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     //do Smth
     html {
         font-size: 10px;
@@ -142,9 +155,15 @@ body {
     body {
         header {
             figure {
+                display: flex;
+                flex-direction: column;
                 img {
                     max-width: 200px;
                     height: auto;
+                    margin: auto auto;
+                }
+                figcaption {
+                    margin: 20px auto;
                 }
             }
         }
