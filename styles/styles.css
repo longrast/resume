@@ -170,4 +170,7 @@ body main .about a:visited {
     margin: 20px auto;
     min-width: 70%;
   }
+  body header figure figcaption h1 {
+    font-size: 1.8rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
